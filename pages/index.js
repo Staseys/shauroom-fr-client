@@ -102,7 +102,7 @@ export default function HomePage({ posts, gallery }) {
 
   const handleOpenLightbox = (url) => {
     const selectedImage = gallery.findIndex((index) => url === index);
-
+    
     setOpenLightbox(true);
     setSelectedImage(selectedImage);
   };
